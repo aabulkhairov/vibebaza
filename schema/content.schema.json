@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VibeBaza Content Schema",
+  "description": "Schema for validating VibeBaza content frontmatter",
+  "type": "object",
+  "required": ["title"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Content title"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Brief description"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Content tags for categorization"
+    },
+    "author": {
+      "type": "string",
+      "description": "Author name or handle"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether to feature on homepage"
+    },
+    "agent_name": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Agent identifier (kebab-case)"
+    },
+    "agent_tools": {
+      "type": "string",
+      "description": "Comma-separated list of Claude tools"
+    },
+    "agent_model": {
+      "type": "string",
+      "enum": ["sonnet", "opus", "haiku"],
+      "description": "Claude model to use"
+    },
+    "install_command": {
+      "type": "string",
+      "description": "MCP installation command"
+    },
+    "connection_type": {
+      "type": "string",
+      "enum": ["stdio", "sse", "http"],
+      "description": "MCP connection type"
+    },
+    "paid_api": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether MCP requires paid API"
+    },
+    "category": {
+      "type": "string",
+      "description": "Bundle category"
+    },
+    "mcps": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "MCP slugs in bundle"
+    },
+    "skills": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Skill slugs in bundle"
+    },
+    "agents": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Agent slugs in bundle"
+    },
+    "prompts": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Prompt slugs in bundle"
+    }
+  },
+  "additionalProperties": true
+}

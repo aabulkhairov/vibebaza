@@ -1,0 +1,95 @@
+name: Validate Content
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '!README.md'
+      - '!CONTRIBUTING.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install -g js-yaml ajv-cli
+
+      - name: Validate frontmatter
+        run: |
+          #!/bin/bash
+          set -e
+
+          ERRORS=0
+
+          # Get changed markdown files
+          CHANGED_FILES=$(git diff --name-only --diff-filter=ACMR ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '\.md$' | grep -v 'README.md\|CONTRIBUTING.md' || true)
+
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No markdown files changed"
+            exit 0
+          fi
+
+          for file in $CHANGED_FILES; do
+            echo "Validating: $file"
+
+            # Extract frontmatter
+            if ! head -1 "$file" | grep -q '^---$'; then
+              echo "::error file=$file::Missing frontmatter delimiter at start"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Extract YAML between --- markers
+            YAML=$(sed -n '/^---$/,/^---$/p' "$file" | sed '1d;$d')
+
+            if [ -z "$YAML" ]; then
+              echo "::error file=$file::Empty frontmatter"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Check for required title field
+            if ! echo "$YAML" | grep -q '^title:'; then
+              echo "::error file=$file::Missing required field 'title'"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Validate YAML syntax
+            if ! echo "$YAML" | js-yaml > /dev/null 2>&1; then
+              echo "::error file=$file::Invalid YAML syntax"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Check file is in valid directory
+            DIR=$(dirname "$file")
+            if [[ ! "$DIR" =~ ^(skills|agents|prompts|mcps|bundles)$ ]]; then
+              echo "::error file=$file::File must be in skills/, agents/, prompts/, mcps/, or bundles/"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Check filename format (kebab-case)
+            FILENAME=$(basename "$file" .md)
+            if [[ ! "$FILENAME" =~ ^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$ ]]; then
+              echo "::warning file=$file::Filename should be kebab-case (lowercase letters, numbers, hyphens)"
+            fi
+
+            echo "✓ $file is valid"
+          done
+
+          if [ $ERRORS -gt 0 ]; then
+            echo "::error::Found $ERRORS validation errors"
+            exit 1
+          fi
+
+          echo "All files validated successfully!"
