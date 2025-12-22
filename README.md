@@ -22,7 +22,7 @@ Open-source библиотека промптов, навыков, агенто�
 
 ```bash
 # Форкни репозиторий на GitHub, затем:
-git clone https://github.com/YOUR_USERNAME/vibebaza.git
+git clone git@github.com:YOUR_USERNAME/vibebaza.git
 cd vibebaza
 ```
 
