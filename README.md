@@ -380,9 +380,11 @@ description: "Описание до 200 символов"
 tags:
   - tag1
   - tag2
-author: "Имя автора"
-featured: false  # true = показывать в featured секции
+author: "@username"  # Кавычки обязательны для @-никнеймов!
+featured: false      # true = показывать в featured секции
 ```
+
+> **Важно:** Символ `@` в YAML — специальный (anchor). Если author начинается с `@`, оберните в кавычки: `author: "@nickname"`
 
 ### Специфичные для Agents
 
