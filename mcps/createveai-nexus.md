@@ -29,7 +29,6 @@ Open-source MCP сервер, который соединяет AI агенто�
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/spgoodman/createveai-nexus-server)
 
 ## Примечания
 

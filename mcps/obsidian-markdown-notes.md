@@ -79,7 +79,6 @@ npx -y mcp-obsidian ${input:vaultPath}
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/calclavia/mcp-obsidian)
 
 ## Примечания
 

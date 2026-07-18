@@ -86,7 +86,6 @@ npx mcp-remote https://open-targets-mcp-server.quentincody.workers.dev/mcp
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/QuentinCody/open-targets-mcp-server)
 
 ## Примечания
 

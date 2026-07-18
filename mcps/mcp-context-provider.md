@@ -154,7 +154,6 @@ pip install -r requirements.txt
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/doobidoo/MCP-Context-Provider)
 
 ## Примечания
 

@@ -68,7 +68,6 @@ npx -y @cyberhaven/mcpignore-filesystem /Users/<username>/Desktop /path/to/other
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/CyberhavenInc/filesystem-mcpignore)
 
 ## Примечания
 

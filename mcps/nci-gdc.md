@@ -94,7 +94,6 @@ MCP сервер, который предоставляет доступ к да
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/QuentinCody/nci-gdc-mcp-server)
 
 ## Примечания
 

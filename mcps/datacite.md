@@ -84,7 +84,6 @@ npx wrangler deploy
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/QuentinCody/datacite-mcp-server)
 
 ## Примечания
 

@@ -84,7 +84,6 @@ npx -y @smithery/cli install @doobidoo/mcp-memory-service --client claude
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/doobidoo/mcp-memory-service)
 
 ## Примечания
 

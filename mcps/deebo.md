@@ -11,4 +11,3 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/snagasuri/deebo-prototype)

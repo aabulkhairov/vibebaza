@@ -56,7 +56,6 @@ npm start
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/QuentinCody/entrez-mcp-server)
 
 ## Примечания
 

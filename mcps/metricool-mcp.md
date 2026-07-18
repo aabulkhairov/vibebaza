@@ -81,7 +81,6 @@ uvx --upgrade mcp-metricool
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/metricool/mcp-metricool)
 
 ## Примечания
 

@@ -54,7 +54,6 @@ Fetch the abstract for PDB entry 2DRI
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/QuentinCody/rcsb-pdb-mcp-server)
 
 ## Примечания
 

@@ -75,7 +75,6 @@ npx -y @simplypixi/bugbug-mcp-server@latest
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/simplypixi/bugbug-mcp-server)
 
 ## Примечания
 
