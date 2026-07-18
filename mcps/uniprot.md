@@ -110,7 +110,7 @@ Search protein kinase family members
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/QuentinCody/uniprot-mcp-server)
+- [GitHub Repository](https://github.com/josefdc/Uniprot-MCP)
 
 ## Примечания
 

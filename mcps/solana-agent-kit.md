@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/sendaifun/solana-agent-k)
+- [GitHub Repository](https://github.com/sendaifun/solana-agent-kit)

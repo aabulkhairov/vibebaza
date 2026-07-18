@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/vfarcic/dot-a)
+- [GitHub Repository](https://github.com/vfarcic/dot-ai)

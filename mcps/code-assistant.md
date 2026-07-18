@@ -11,4 +11,4 @@ MCP сервер помощника по программированию, ко�
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/stippi/code-assistan)
+- [GitHub Repository](https://github.com/stippi/code-assistant)

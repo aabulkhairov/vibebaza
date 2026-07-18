@@ -12,4 +12,4 @@ Model Context Protocol сервер для генерации 15+ типов в�
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/antvis/mcp-server-char)
+- [GitHub Repository](https://github.com/antvis/mcp-server-chart)

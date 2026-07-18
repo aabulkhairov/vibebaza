@@ -133,4 +133,4 @@ Search for Rust packages on crates.io
 
 ## Примечания
 
-Сервер использует стандартный user-agent 'ModelContextProtocol/1.0 Pacman (+https://github.com/modelcontextprotocol/servers)', который можно настроить, добавив '--user-agent=YourUserAgent' в список аргументов. Проект включает комплексное тестирование, поддержку отладки с помощью MCP inspector и автоматизированный процесс релизов через GitHub Actions.
+Сервер использует стандартный user-agent 'ModelContextProtocol/1.0 Pacman (+[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers))', который можно настроить, добавив '--user-agent=YourUserAgent' в список аргументов. Проект включает комплексное тестирование, поддержку отладки с помощью MCP inspector и автоматизированный процесс релизов через GitHub Actions.

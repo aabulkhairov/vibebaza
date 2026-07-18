@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/nkapila6/mcp-local-ra)
+- [GitHub Repository](https://github.com/nkapila6/mcp-local-rag)

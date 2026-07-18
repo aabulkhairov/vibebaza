@@ -11,4 +11,4 @@ Model Context Protocol (MCP) сервер для взаимодействия с
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/Kong/mcp-konnec)
+- [GitHub Repository](https://github.com/Kong/mcp-konnect)

@@ -11,4 +11,4 @@ MCP сервер, который позволяет большим языков�
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/ognis1205/mcp-server-unitycatalo)
+- [GitHub Repository](https://github.com/ognis1205/mcp-server-unitycatalog)

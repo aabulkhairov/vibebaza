@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/executeautomation/mcp-playwrigh)
+- [GitHub Repository](https://github.com/executeautomation/mcp-playwright)

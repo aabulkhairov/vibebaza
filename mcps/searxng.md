@@ -11,4 +11,4 @@ MCP сервер для веб-поиска через [SearXNG](https://docs.se
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/erhwenkuo/mcp-searxn)
+- [GitHub Repository](https://github.com/erhwenkuo/mcp-searxng)

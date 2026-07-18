@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/goat-sdk/goa)
+- [GitHub Repository](https://github.com/goat-sdk/goat)

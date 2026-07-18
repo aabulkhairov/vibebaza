@@ -11,4 +11,4 @@ Pragmatic Deterministic MCP Templating - высокопроизводитель�
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/paiml/pdm)
+- [GitHub Repository](https://github.com/paiml/pdmt)

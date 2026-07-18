@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/boma086/mcp-projectmanage-openprojec)
+- [GitHub Repository](https://github.com/boma086/mcp-pm-openproject)

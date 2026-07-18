@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/just-every/mcp-screenshot-website-fas)
+- [GitHub Repository](https://github.com/just-every/mcp-screenshot-website-fast)

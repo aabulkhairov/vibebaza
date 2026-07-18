@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/domdomegg/time-mcp-pyp)
+- [GitHub Repository](https://github.com/domdomegg/time-mcp-pypi)

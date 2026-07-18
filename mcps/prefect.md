@@ -11,4 +11,4 @@ MCP сервер для оркестрации рабочих процессов
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/allen-munsch/mcp-prefec)
+- [GitHub Repository](https://github.com/allen-munsch/mcp-prefect)

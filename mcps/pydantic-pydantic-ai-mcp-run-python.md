@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/pydantic/pydantic-a)
+- [GitHub Repository](https://github.com/pydantic/mcp-run-python)

@@ -31,7 +31,7 @@ claude mcp add --transport http mcpfinder https://mcpfinder.dev/mcp
 ### Из исходников
 
 ```bash
-git clone https://github.com/mcpfinder/server
+git clone https://github.com/mcpfinder/mcpfinder
 node index.js
 ```
 
@@ -112,7 +112,7 @@ node index.js
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/mcpfinder/server)
+- [GitHub Repository](https://github.com/mcpfinder/mcpfinder)
 
 ## Примечания
 

@@ -11,4 +11,4 @@ ClaudePost обеспечивает удобное управление элек
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/ZilongXue/claude-pos)
+- [GitHub Repository](https://github.com/ZilongXue/claude-post)

@@ -11,4 +11,4 @@ MCP сервер с возможностями HTTP запросов, имити
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/xxxbrian/mcp-rques)
+- [GitHub Repository](https://github.com/xxxbrian/mcp-rquest)

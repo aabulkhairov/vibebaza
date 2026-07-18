@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/shinpr/mcp-local-ra)
+- [GitHub Repository](https://github.com/shinpr/mcp-local-rag)

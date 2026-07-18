@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/privetin/stdic)
+- [GitHub Repository](https://github.com/dahlia/ko-stdict-mcp)

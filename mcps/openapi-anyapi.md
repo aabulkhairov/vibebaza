@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/baryhuang/mcp-server-any-openap)
+- [GitHub Repository](https://github.com/baryhuang/mcp-server-any-openapi)

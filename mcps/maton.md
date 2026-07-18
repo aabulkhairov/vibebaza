@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/maton-ai/agent-toolk)
+- [GitHub Repository](https://github.com/maton-ai/agent-toolkit)

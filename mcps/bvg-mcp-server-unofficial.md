@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/svkaizoku/mcp-bv)
+- [GitHub Repository](https://github.com/svkaizoku/mcp-bvg)

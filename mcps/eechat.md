@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/Lucassssss/eecha)
+- [GitHub Repository](https://github.com/Lucassssss/eechat)

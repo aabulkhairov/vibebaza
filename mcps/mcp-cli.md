@@ -11,4 +11,4 @@ CLI инспектор для Model Context Protocol от **[wong2](https://gith
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/wong2/mcp-cl)
+- [GitHub Repository](https://github.com/wong2/mcp-cli)

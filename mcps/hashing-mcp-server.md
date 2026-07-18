@@ -11,4 +11,4 @@ MCP сервер с криптографическими функциями хе
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/kanad13/MCP-Server-for-Hashin)
+- [GitHub Repository](https://github.com/kanad13/MCP-Server-for-Hashing)

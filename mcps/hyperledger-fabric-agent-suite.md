@@ -11,4 +11,4 @@ featured: false
 
 ## Ресурсы
 
-- [GitHub Repository](https://github.com/padmarajkore/hlf-fabric-agen)
+- [GitHub Repository](https://github.com/padmarajkore/hlf-fabric-agent)
