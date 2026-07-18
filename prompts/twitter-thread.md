@@ -63,7 +63,7 @@ Generate:
 
 **Contrarian:** "Unpopular opinion: [bold statement]. Here's why:"
 
-**How-To:** "How to [achieve goal] (a thread):"
+**How-To:** "How to achieve {goal} (a thread):"
 
 **Curiosity:** "The real reason [thing happens]. Most people get this wrong:"
 
